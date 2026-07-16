@@ -13,7 +13,13 @@ Provision AWS infrastructure using Terraform with reusable modules and version-c
 - Variables, outputs, and modules
 - Deployment and destroy workflow documented
 
+## Project Structure
+- [source-code](source-code) contains Terraform configuration files
+- [screenshots](screenshots) contains plan and deployment screenshots
+- [architecture](architecture) contains architecture notes and diagrams
+- [notes](notes) contains implementation tips and observations
+
 ## Starter Templates
-- [main.tf](main.tf) defines a basic S3 bucket and website configuration
-- [variables.tf](variables.tf) contains configurable inputs
-- [outputs.tf](outputs.tf) exposes useful outputs
+- [source-code/main.tf](source-code/main.tf) defines a basic S3 bucket and website configuration
+- [source-code/variables.tf](source-code/variables.tf) contains configurable inputs
+- [source-code/outputs.tf](source-code/outputs.tf) exposes useful outputs

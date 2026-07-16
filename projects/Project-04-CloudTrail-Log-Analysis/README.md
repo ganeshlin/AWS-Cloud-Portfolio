@@ -12,3 +12,9 @@ Enable AWS CloudTrail and analyze API activity logs to understand governance and
 - CloudTrail trail enabled
 - Example events analyzed and summarized
 - Investigation playbook
+
+## Project Structure
+- [source-code](source-code) contains analysis scripts or log examples
+- [screenshots](screenshots) contains trail and event screenshots
+- [architecture](architecture) contains architecture notes and diagrams
+- [notes](notes) contains implementation tips and observations

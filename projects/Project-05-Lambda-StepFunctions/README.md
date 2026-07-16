@@ -12,3 +12,9 @@ Design an event-driven workflow using AWS Lambda and Step Functions to automate 
 - Step Functions workflow definition
 - Lambda function integration
 - Example execution and monitoring notes
+
+## Project Structure
+- [source-code](source-code) contains workflow or Lambda code
+- [screenshots](screenshots) contains workflow screenshots
+- [architecture](architecture) contains architecture notes and diagrams
+- [notes](notes) contains implementation tips and observations

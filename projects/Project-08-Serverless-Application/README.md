@@ -12,3 +12,9 @@ Build a serverless application using AWS Lambda, API Gateway, DynamoDB, and rela
 - API endpoint implemented
 - Lambda handlers and DynamoDB table
 - Request/response examples documented
+
+## Project Structure
+- [source-code](source-code) contains serverless application code
+- [screenshots](screenshots) contains API and deployment screenshots
+- [architecture](architecture) contains architecture notes and diagrams
+- [notes](notes) contains implementation tips and observations

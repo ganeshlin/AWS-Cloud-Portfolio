@@ -13,6 +13,12 @@ Deploy a web application on Amazon EC2 with a Linux-based web server, security g
 - Security group configured for HTTP/HTTPS and SSH
 - Deployment notes and screenshots
 
+## Project Structure
+- [source-code](source-code) contains the application files
+- [screenshots](screenshots) contains deployment evidence and visuals
+- [architecture](architecture) contains architecture notes and diagrams
+- [notes](notes) contains implementation tips and observations
+
 ## Sample Application
-- [app.py](app.py) provides a simple Python web app example
-- [requirements.txt](requirements.txt) lists the Python dependencies
+- [source-code/app.py](source-code/app.py) provides a simple Python web app example
+- [source-code/requirements.txt](source-code/requirements.txt) lists the Python dependencies

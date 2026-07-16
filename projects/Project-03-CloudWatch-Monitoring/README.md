@@ -12,3 +12,9 @@ Implement observability for an AWS environment using CloudWatch metrics, alarms,
 - CloudWatch dashboard
 - Alarm configured for CPU or application health
 - Monitoring strategy documentation
+
+## Project Structure
+- [source-code](source-code) contains monitoring scripts or configuration files
+- [screenshots](screenshots) contains dashboard and alert screenshots
+- [architecture](architecture) contains architecture notes and diagrams
+- [notes](notes) contains implementation tips and observations
