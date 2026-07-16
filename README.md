@@ -38,3 +38,8 @@ This repository now includes a few practical assets to make the portfolio more p
 - Terraform IaC starter templates for Project 07 in [projects/Project-07-Terraform](projects/Project-07-Terraform)
 - Architecture diagrams and deployment notes in [docs/architecture-diagrams.md](docs/architecture-diagrams.md)
 - Screenshot placeholders and guidance in [docs/screenshots/README.md](docs/screenshots/README.md)
+
+## Repository Structure
+
+- [projects](projects) contains each project folder with dedicated source, screenshots, architecture, and notes sections.
+- [projects/Project-01-S3-Static-Portfolio](projects/Project-01-S3-Static-Portfolio) now includes a structured layout for source code, screenshots, architecture notes, and project notes.
