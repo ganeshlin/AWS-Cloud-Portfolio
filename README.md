@@ -7,7 +7,7 @@ This repository contains a curated set of production-style AWS cloud projects th
 Each project is organized as a self-contained learning module with objectives, architecture notes, implementation steps, and outcomes. The projects progress from foundational services to more advanced cloud-native and production-ready patterns.
 
 ## Project Index
-
+- Project-00-AWS-Account Setup & Security/
 - Project 01 - S3 Static Portfolio
 - Project 02 - EC2 Web Application
 - Project 03 - CloudWatch Monitoring
