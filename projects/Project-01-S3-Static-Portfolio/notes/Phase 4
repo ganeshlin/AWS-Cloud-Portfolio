@@ -1,0 +1,135 @@
+#Phase 4: Build
+
+Learning Objective
+
+By the end of this phase, you will have:
+
+Created an S3 bucket
+Configured it correctly
+Uploaded your website
+Enabled Static Website Hosting
+Configured permissions
+Successfully accessed your website over the internet
+
+Step 1 – Sign in to AWS
+Go to the AWS Management Console.
+Sign in using your AWS account.
+Select the Asia Pacific (Mumbai) – ap-south-1 region (or the region you plan to use consistently).
+
+Why Mumbai?
+
+Lower latency if you're in India.
+Keeps all your portfolio resources in one region.
+
+Step 2 – Open Amazon S3
+
+In the AWS Console:
+
+Search for S3.
+Click Amazon S3.
+You'll see the Buckets page.
+Step 3 – Create a Bucket
+
+Click Create bucket.
+
+You'll see several options. We'll go through each one carefully.
+
+Section 1: General Configuration
+Bucket Name
+
+Choose a globally unique bucket name.
+
+Example:
+ganesh-cloud-portfolio-2026
+Or 
+ganeshb-s3-static-portfolio
+
+Rules
+Lowercase letters only
+Numbers allowed
+Hyphens allowed
+No spaces
+Must be globally unique
+
+Why?
+Bucket names are part of the public URL, so AWS requires them to be unique worldwide.
+
+Section 2: AWS Region
+
+Choose:
+
+Asia Pacific (Mumbai)
+ap-south-1
+
+Why?
+Resources are physically stored in the selected region, affecting latency and cost.
+
+Section 3: Object Ownership
+
+You'll see:
+
+ACLs disabled (recommended)
+Bucket owner enforced
+
+Select:
+✅ ACLs disabled (Bucket owner enforced)
+
+Why?
+AWS recommends using IAM policies and bucket policies instead of Access Control Lists (ACLs). This simplifies permissions and follows current best practices.
+
+Section 4: Block Public Access Settings
+
+You'll see four checkboxes similar to:
+
+Block all public access
+Block public ACLs
+Ignore public ACLs
+Block public bucket policies
+
+For a public website, uncheck "Block all public access". AWS will automatically clear the related settings.
+
+Then acknowledge the warning by checking : 
+I acknowledge that the current settings might result in this bucket and the objects within becoming public.
+
+Why?
+
+The website must be publicly readable so visitors can access it. We'll grant only read access later through a bucket policy.
+
+Important: We're making the bucket public only because this is a static website. In a production environment, we would typically use CloudFront with a private S3 bucket.
+
+Section 5: Bucket Versioning
+
+Choose:
+
+Disable
+
+Why?
+
+Versioning lets you keep multiple versions of objects. It's useful for production environments, but we'll introduce it in a later project to keep this one simple.
+
+Section 6: Default Encryption
+
+Leave the default:
+
+Server-side encryption with Amazon S3 managed keys (SSE-S3)
+
+Why?
+
+AWS automatically encrypts data at rest with no additional cost or configuration.
+
+Section 7: Advanced Settings
+
+Leave the defaults.
+
+We'll cover features like Object Lock and lifecycle policies in later projects.
+
+Section 8: Create Bucket
+
+Review your settings and click:
+
+Create bucket
+
+Expected Result
+
+You should now see your new bucket listed on the Buckets page.
+
