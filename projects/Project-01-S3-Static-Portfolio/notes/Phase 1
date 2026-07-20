@@ -1,0 +1,73 @@
+# Notes
+
+#Phase 1 – Business Requirement
+#Project Title
+
+Hosting a Personal Portfolio Website Using Amazon S3 Static Website Hosting
+
+Business Scenario
+
+A software engineer wants a professional online portfolio to showcase cloud projects, technical skills, certifications, and contact information.
+
+Instead of purchasing a traditional web hosting service, the company wants a low-cost, highly available, scalable, serverless solution using AWS.
+
+The website should be easy to update and accessible over the internet.
+
+Business Problem
+
+Traditional web hosting requires:
+
+Purchasing hosting plans
+Managing web servers
+Installing operating systems
+Configuring web servers like Apache or Nginx
+Applying security patches
+Scaling servers during high traffic
+
+These tasks increase operational cost and administrative effort.
+
+Proposed AWS Solution
+
+Use Amazon S3 Static Website Hosting to host a static website.
+
+The solution should:
+
+Store website files in an S3 bucket.
+Make the website publicly accessible (for this project).
+Automatically scale to support any number of visitors.
+Require no server management.
+Minimize operational cost.
+Functional Requirements
+
+The solution must:
+
+Display a personal portfolio homepage.
+Include an About Me section.
+Display AWS projects.
+Display technical skills.
+Include certifications.
+Provide contact information.
+Use HTML, CSS, and JavaScript.
+Be accessible through an S3 Website Endpoint.
+Non-Functional Requirements
+
+The solution should be:
+
+Highly available
+Highly durable
+Low latency
+Low cost
+Scalable
+Easy to maintain
+Secure (following AWS best practices)
+Easy to update with new projects
+
+AWS Services Required
+| AWS Service | Purpose                                     |
+| ----------- | ------------------------------------------- |
+| Amazon S3   | Store and host static website files         |
+| IAM         | Manage secure access to AWS resources       |
+| AWS Console | Configure the S3 bucket and website hosting |
+
+
+
