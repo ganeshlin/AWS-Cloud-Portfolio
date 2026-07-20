@@ -335,4 +335,5 @@ AWS is designed to provide 99.999999999% (11 nines) durability by storing data r
 Why is public access blocked by default?
 To reduce the risk of unintentionally exposing data to the internet.
 
+For Phase 3 read Architecture Readme.md # Phase 3 – Architecture
 
