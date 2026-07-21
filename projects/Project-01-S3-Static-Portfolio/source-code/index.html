@@ -1,17 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AWS Static Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh | AWS Cloud Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <main class="container">
-    <h1>AWS Cloud Portfolio</h1>
-    <p>Static website hosted on Amazon S3.</p>
-    <button id="toggleButton">Toggle Theme</button>
-  </main>
-  <script src="script.js"></script>
+
+    <header>
+        <h1>Ganesh B</h1>
+        <p>Aspiring AWS Cloud Engineer</p>
+    </header>
+
+    <main>
+
+        <section class="card">
+            <h2>About Me</h2>
+
+            <p>
+                I am an IT professional transitioning into AWS Cloud Engineering.
+                This website is hosted on Amazon S3 as part of my AWS Cloud Portfolio.
+            </p>
+        </section>
+
+        <section class="card">
+
+            <h2>Skills</h2>
+
+            <ul>
+                <li>AWS</li>
+                <li>Linux</li>
+                <li>Networking</li>
+                <li>Git & GitHub</li>
+                <li>Terraform (Learning)</li>
+                <li>Docker (Learning)</li>
+            </ul>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Current Project</h2>
+
+            <p>
+                AWS Cloud Portfolio - Project 01
+            </p>
+
+            <p>
+                Static Portfolio Website hosted on Amazon S3.
+            </p>
+
+        </section>
+
+        <button onclick="showMessage()">
+            Click Me
+        </button>
+
+        <p id="message"></p>
+
+    </main>
+
+    <footer>
+
+        <p>
+            © 2026 Ganesh | AWS Cloud Portfolio
+        </p>
+
+    </footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>

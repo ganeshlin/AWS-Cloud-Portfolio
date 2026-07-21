@@ -1,3 +1,6 @@
-document.getElementById('toggleButton').addEventListener('click', () => {
-  document.body.classList.toggle('dark');
-});
+function showMessage(){
+
+    document.getElementById("message").innerHTML =
+    "Congratulations! Your AWS S3 Static Website is working successfully.";
+
+}
